@@ -1,9 +1,13 @@
+// PROMOSE:promises are objects which reprents the eventual completion 
+
+// or failure of asyncronus oprations and its resulting value.`                                                                                                                                                                                    
 const datas=[
-  {name:"shiva",age:"26"},
+  {name:"`shiva",age:"26"},
   {name:"ajit",age:"28"}
 ];
 ////////////////////////////////////////
-function getDatas(){
+function getDatas(){.
+  
   setTimeout(()=>{
     let output="";
     datas.forEach((data,index)=>{
