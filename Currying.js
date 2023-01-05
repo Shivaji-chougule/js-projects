@@ -44,5 +44,5 @@ function userData(obj){
          return obj[userInfo]
    }
 }
-let res=userData(userObj)
-console.log(res('name'))
+let res=userData(userObj)('name')
+console.log(res)
