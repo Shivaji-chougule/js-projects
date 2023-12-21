@@ -57,7 +57,7 @@
     // async key word make this function it will return promise and await key word make wait until promise get resolved 
     async function orderCake () {
        try {const egg = await getEgg();
-        console.log("got the",egg)
+        console.log("got the",egg) 
         const dough =await  makeDough(egg);
         console.log("got the dough of",dough)
         const cake = await bakeCake(dough)
